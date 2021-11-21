@@ -68,6 +68,6 @@ app.use('/', indexRouter);
 // 	response.end();
 // });
 
-app.listen(process.env.PORT || 4000, function(){
+app.listen(process.env.PORT || 4000, () => {
     console.log("server is active");
 });
