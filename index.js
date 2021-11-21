@@ -68,7 +68,6 @@ app.use('/', indexRouter);
 // 	response.end();
 // });
 
-const port = process.env.PORT || 4000
-app.listen(port, () => {
-    console.log('Server sudah berjalan')
-})
+app.listen(process.env.PORT || 4000, function(){
+    console.log("server is active");
+});
